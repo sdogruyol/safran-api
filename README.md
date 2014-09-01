@@ -11,7 +11,7 @@ You can check 'routes.rb' file for the api paths.
 
 # Usage
 
-If you are starting the app for the ** first time **. You better fetch some stories. To do so:
+If you are starting the app for the **first time**. You better fetch some stories. To do so:
 
     cd safran-api && bundle exec rails c
     MainParser.new
