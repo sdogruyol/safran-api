@@ -29,6 +29,7 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
+    chronic (0.10.2)
     diff-lcs (1.2.5)
     domain_name (0.5.19)
       unf (>= 0.0.5, < 1.0.0)
@@ -125,6 +126,9 @@ GEM
       unf_ext
     unf_ext (0.0.6)
     webrobots (0.1.1)
+    whenever (0.9.2)
+      activesupport (>= 2.3.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
@@ -138,3 +142,4 @@ DEPENDENCIES
   shoulda
   spring
   sqlite3
+  whenever

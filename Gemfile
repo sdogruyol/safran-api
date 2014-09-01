@@ -9,6 +9,7 @@ gem 'spring', :group => :development
 gem 'sqlite3'
 
 gem 'mechanize'
+gem 'whenever', require: false
 
 group :development, :test do
   gem 'rspec-rails', '2.14.2'
