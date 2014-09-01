@@ -23,5 +23,6 @@ describe Story do
     it { should validate_presence_of(:comment_count) }
     it { should validate_presence_of(:owner_name) }
     it { should validate_presence_of(:owner_link) }
+    it { should validate_uniqueness_of(:title) }
   end
 end

@@ -20,4 +20,10 @@ class Story < ActiveRecord::Base
   validates :comment_count, presence: true
   validates :owner_name, presence: true
   validates :owner_link, presence: true
+
+  # Disable STI
+  self.inheritance_column = :_type_disabled
+
+  # Enums
+  enum type: [:is_new, :is_hot]
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140901082303) do
+ActiveRecord::Schema.define(version: 20140901083931) do
 
   create_table "stories", force: true do |t|
     t.string   "title"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20140901082303) do
     t.string   "owner_link"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "type"
   end
 
 end
