@@ -13,4 +13,5 @@ gem 'mechanize'
 group :development, :test do
   gem 'rspec-rails', '2.14.2'
   gem 'faker'
+  gem 'shoulda'
 end
