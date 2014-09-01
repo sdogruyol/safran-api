@@ -16,7 +16,7 @@ If you are starting the app for the **first time**. You better fetch some storie
     cd safran-api && bundle exec rails c
     MainParser.new
 
-And then boot up your Rails serve to serve JSON
+And then boot up your Rails server to serve JSON
 
     bundle exec rails s
 
